@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-color: #1f2937;
+  color: white;
+  font-family: 'Karla', serif;
+}
+
+button {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  background-color: #10b981;
+  padding: 15 25;
+  font-size: 1.5rem;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+hr {
+  height: 1px;
+  background-color: #2f3e53;
+  border: none;
+}
+
+.hero {
+  margin-top: 14rem;
+  margin-left: 6rem;
+  width: 1200px;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 800; /* Heaviest weight for bold text */
+  margin: 0;
+  line-height: 1; /* Adjust line spacing between the lines of text */
+  margin-bottom: 1.2rem;
+}
+
+h1 span {
+  font-size: 6rem;
+  display: block; /* Makes the span element start on a new line */
+  color: #4adf86; /* Customize the color */
+  letter-spacing: -0.02em;
+}
+
+.subheading {
+  font-family: 'Inter', serif;
+  margin: 0;
+  color: #d5d4d8;
+  font-size: 2.5rem;
+  font-weight: 150;
+}
+
+.passwords {
+  display: flex;
+  justify-content: space-between;
+}
+
+.password-box {
+    margin-top: 50px;
+    background-color: #273549;
+    border-radius: 10px;
+    width: 550px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px; /* Adds space above the text */
+}
+
