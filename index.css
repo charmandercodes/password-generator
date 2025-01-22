@@ -9,11 +9,25 @@ button {
   margin-top: 5rem;
   margin-bottom: 3rem;
   background-color: #10b981;
-  padding: 15 25;
+  padding: 15px 25px;
   font-size: 1.5rem;
   border: none;
   color: white;
   border-radius: 5px;
+  cursor: pointer; /* Changes the cursor to indicate it's clickable */
+  transition: all 0.3s ease; /* Smooth transition for changes */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #34d399; /* Lighter green when hovered */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Active (clicked) effect */
+button:active {
+  background-color: #16a34a; /* Darker green when clicked */
+  transform: scale(1); /* Return to original size when clicked */
 }
 
 hr {
@@ -57,12 +71,11 @@ h1 span {
 }
 
 .password-box {
-    margin-top: 50px;
-    background-color: #273549;
-    border-radius: 10px;
-    width: 550px;
-    height: 50px;
-    text-align: center;
-    padding-top: 30px; /* Adds space above the text */
+  margin-top: 50px;
+  background-color: #273549;
+  border-radius: 10px;
+  width: 550px;
+  height: 50px;
+  text-align: center;
+  padding-top: 30px; /* Adds space above the text */
 }
-
